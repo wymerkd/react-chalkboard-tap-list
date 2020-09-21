@@ -6,7 +6,7 @@ import Nav from './Nav';
 
 const Home = () => {
   return (
-    <div>
+    <div className="app">
       <div>
         <Nav/>
       </div>

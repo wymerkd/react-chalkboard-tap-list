@@ -1,5 +1,5 @@
 import React from 'react'
-import '../scss/_home.scss'
+import '../scss/_admin-view.scss'
 
 // Components
 import Nav from './Nav';
@@ -7,7 +7,10 @@ import Nav from './Nav';
 const AdminView = () => {
   return (
     <div>
-      <Nav/>
+      <Nav />
+      <div>
+        <h1>check</h1>
+      </div>
     </div>
   )
 }
