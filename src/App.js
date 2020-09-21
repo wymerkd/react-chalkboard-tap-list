@@ -6,6 +6,9 @@ import { Switch, Route } from 'react-router-dom';
 // CSS
 import './App.scss';
 
+// Bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 // Components
 import Test from './components/Test';
 import AdminView from './components/AdminView';
