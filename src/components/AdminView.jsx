@@ -1,10 +1,13 @@
 import React from 'react'
-import '../scss/_test.scss'
+import '../scss/_home.scss'
+
+// Components
+import Nav from './Nav';
 
 const AdminView = () => {
   return (
     <div>
-      <h1>Login!</h1>
+      <Nav/>
     </div>
   )
 }

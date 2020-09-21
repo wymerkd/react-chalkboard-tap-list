@@ -1,10 +1,10 @@
 import React from 'react'
-import '../scss/_test.scss'
+import '../scss/_home.scss'
 
 // Components
 import Nav from './Nav';
 
-const Test = () => {
+const Home = () => {
   return (
     <div>
       <div>
@@ -17,5 +17,5 @@ const Test = () => {
   )
 }
 
-export default Test;
+export default Home;
 

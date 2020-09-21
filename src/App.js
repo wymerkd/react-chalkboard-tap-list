@@ -10,7 +10,7 @@ import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Components
-import Test from './components/Test';
+import Home from './components/Home';
 import AdminView from './components/AdminView';
 // import Error404 from './components/Error404';
 
@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       <Switch>
-        <Route exact path ='/' component={Test} />
+        <Route exact path ='/' component={Home} />
         <Route path ='/adminview' component={AdminView} />
       </Switch>
     </div>
