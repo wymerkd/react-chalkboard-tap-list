@@ -21,8 +21,56 @@ const Home = () => {
             <div className="col-6 beers">
               <h3 className="beerName">Manny's Pale Ale </h3>
               <div className="beerDetails">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit beatae similique sed dignissimos excepturi placeat culpa eos ratione consequatur laborum ea veritatis sit dolores libero</p>
-                <p>5.5% ABV --------- $8</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <div className="row">
+                  <div className="col-10">
+                    <p>5.5% ABV</p>
+                  </div>
+                  <div className="col-1">
+                    <p>$6</p>
+                  </div>
+                  <div className="col-1">
+                    <p>$9</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-6 beers">
+              <h3 className="beerName">Manny's Pale Ale </h3>
+              <div className="beerDetails">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <div className="row">
+                  <div className="col-10">
+                    <p>5.5% ABV</p>
+                  </div>
+                  <div className="col-1">
+                    <p>$6</p>
+                  </div>
+                  <div className="col-1">
+                    <p>$9</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-6 beers">
+              <h3 className="beerName">Manny's Pale Ale </h3>
+              <div className="beerDetails">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <div className="row">
+                  <div className="col-10">
+                    <p>5.5% ABV</p>
+                  </div>
+                  <div className="col-1">
+                    <p>$6</p>
+                  </div>
+                  <div className="col-1">
+                    <p>$9</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
