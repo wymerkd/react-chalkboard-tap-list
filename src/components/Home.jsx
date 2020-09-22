@@ -14,7 +14,7 @@ const Home = () => {
         <div className="container content">
           <div className="row">
             <div className="col-6">
-              <h1 className="secondBeerText">- ON TAP - </h1>
+              <h1 className="goldHeading">- Taplist - </h1>
             </div>
           </div>
         </div>
