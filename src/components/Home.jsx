@@ -20,7 +20,10 @@ const Home = () => {
           <div className="row">
             <div className="col-6 beers">
               <h3 className="beerName">Manny's Pale Ale </h3>
-              <p className="beerDetails">5.5% ABV --------- $8</p>
+              <div className="beerDetails">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit beatae similique sed dignissimos excepturi placeat culpa eos ratione consequatur laborum ea veritatis sit dolores libero</p>
+                <p>5.5% ABV --------- $8</p>
+              </div>
             </div>
           </div>
         </div>
