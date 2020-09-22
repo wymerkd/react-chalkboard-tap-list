@@ -10,8 +10,8 @@ const Home = () => {
       <div>
         <Nav/>
       </div>
-      <div>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, atque. Vero rem quasi possimus fugit totam illo eos vel hic. Nam temporibus harum saepe quia doloribus aliquam ipsum molestias laborum.</p>
+      <div className="container-fluid">
+        <h1>Taplist</h1>
       </div>
     </div>
   )
