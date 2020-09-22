@@ -1,6 +1,11 @@
 @import 'variables';
 
-h1 {
-  font-family: $homemadeApple;
-  color: $whiteChalk; 
+.content {
+  padding-top: 50px;
+}
+
+.secondBeerText {
+  color: rgba(255, 234, 0, 0.687);
+  font-family: $reenieBeanie;
+  font-size: 60px;
 }

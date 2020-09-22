@@ -7,11 +7,17 @@ import Nav from './Nav';
 const Home = () => {
   return (
     <div className="app">
-      <div>
+      {/* <div>
         <Nav/>
-      </div>
+      </div> */}
       <div className="container-fluid">
-        <h1>Taplist</h1>
+        <div className="container content">
+          <div className="row">
+            <div className="col-6">
+              <h1 className="secondBeerText">- ON TAP - </h1>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
