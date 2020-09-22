@@ -17,6 +17,12 @@ const Home = () => {
               <h1 className="goldHeading">- Taplist - </h1>
             </div>
           </div>
+          <div className="row">
+            <div className="col-6 beers">
+              <h3 className="beerName">Manny's Pale Ale </h3>
+              <p className="beerDetails">5.5% ABV --------- $8</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
