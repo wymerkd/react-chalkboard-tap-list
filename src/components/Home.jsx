@@ -1,10 +1,11 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 import '../scss/_home.scss'
 
 // Components
-import Nav from './Nav';
+// import Nav from './Nav';
 
-const Home = () => {
+const Home = (props) => {
   return (
     <div className="app">
       {/* <div>
