@@ -2,10 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types';
 import '../scss/_home.scss'
 
+
 // Components
 // import Nav from './Nav';
 
+
 const Home = (props) => {
+  const beers = props.tapList;
+
   return (
     <div className="app">
       {/* <div>
@@ -20,7 +24,7 @@ const Home = (props) => {
           </div>
           <div className="row">
             <div className="col-6 beers">
-              <h3 className="beerName">Manny's Pale Ale </h3>
+              <h3 className="beerName">{props.tapList.beerName}</h3>
               <div className="beerDetails">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
                 <div className="row">
@@ -131,6 +135,10 @@ const Home = (props) => {
     </div>
   )
 }
+
+Home.propTypes = {
+  tapList: PropTypes.array,
+};
 
 export default Home;
 
