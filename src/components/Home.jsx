@@ -5,6 +5,7 @@ import '../scss/_home.scss'
 
 // Components
 // import Nav from './Nav';
+import AdBox from './AdBox';
 
 
 const Home = (props) => {
@@ -129,6 +130,9 @@ const Home = (props) => {
                 </div>
               </div>
             </div>
+          </div>
+          <div>
+            <AdBox/>
           </div>
         </div>
       </div>
