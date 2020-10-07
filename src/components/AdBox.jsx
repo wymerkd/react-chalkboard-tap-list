@@ -4,7 +4,7 @@ import '../scss/_ad-box.scss'
 
 const AdBox = () => {
   return (
-    <div>
+    <div className="adBox">
       <h1>Happy Hour</h1>
       <h3>Everyday 4-6 PM</h3>
     </div>
